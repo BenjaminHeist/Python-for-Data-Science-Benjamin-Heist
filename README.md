@@ -1,1 +1,0 @@
-In this branch you can find the code regarding the exercises of individual assignment 2. It said 'You will update your first repository and for each exercise (after creating the readme) create an individual branch.' but i only created one new branch for alle the exercises of assignment 2. I will add a new branch for each assignment, I hope that is correct. 
