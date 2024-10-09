@@ -1,2 +1,5 @@
-ReadMe for the Individual Assignment 1 in "Python for Datascience". 
-I have copied the exercises into the notebook and in the next cells you will find the respective code to solve the exercises. I had initial troubles installing the Python Version 3.10, but I hope that the code for the Match-Statement is still correct.  
+ReadMe for Individual Assignment 1: Python for Data Science
+
+In this notebook, I have included the exercises for Individual Assignment 1, followed by the respective code solutions in the subsequent cells.
+
+I encountered some initial difficulties while installing Python version 3.10, which may have affected the implementation of the match statement. However, I believe the code provided should still be correct.
