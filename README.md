@@ -10,7 +10,7 @@ ASSIGNMENT 1
 
 ASSIGNMENT 2 
 
-- In this notebook you'll find exercises 1-4 related to Individual Assignment 2. You can see the tasks followed by che respective code solutions in the subsequent cells.
+- In this notebook you'll find exercises 1-4 related to Individual Assignment 2. You can see the tasks followed by the respective code solutions in the subsequent cells.
 
 Assumptions: 
 
@@ -52,6 +52,40 @@ Features Implemented
 - Methods:
   - Set grade for a course.
   - Calculate and show GPA based on enrolled courses and grades.
+
+
+ASSIGNMENT 4
+
+This repository contains a Python script to analyze a set of annotation files stored in a zip file. Each file follows a specific naming convention:
+{DATE}_{TIME}_SN{SATELLITE_NUMBER}_QUICKVIEW_VISUAL_{VERSION}_{UNIQUE_REGION}.txt
+
+The file used can be found here: https://ecampus.esade.edu/pluginfile.php/185972110/mod_resource/content/1/session_4.zip
+
+Task Overview
+The script provides answers to the following questions based on the annotation files:
+
+1. Total Files: How many annotation files are in the folder.
+2. Valid Naming Convention: How many files follow the specified naming convention.
+3. Annotations by Month and Year:
+- Count of annotations for each month and year.
+- Identify the month with the highest number of annotations.
+4. Organize Files by Month:
+- A new folder structure is created with subfolders for each month, and files are moved to the corresponding month folder.
+5. Sort Annotations by Date: Print all annotation filenames from the most recent to the oldest.
+6. Satellite Analysis:
+- How many different satellites are represented.
+- Count of annotations for each satellite.
+- Identify which satellite was used in the most recent annotation file.
+7. Unique Regions: How many unique regions are represented in the dataset.
+
+Libraries Used
+
+- os: For interacting with the file system (e.g., listing directories, checking file paths).
+
+- shutil: For moving files between directories.
+
+
+
 
 How to Use
   - Clone the repository.
