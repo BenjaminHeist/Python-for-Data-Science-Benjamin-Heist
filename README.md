@@ -10,7 +10,7 @@ ASSIGNMENT 1
 
 ASSIGNMENT 2 
 
-- In this notebook you'll find exercises 1-4 related to Individual Assignment 2. You can see the tasks followed by che respective code solutions in the subsequent cells.
+- In this notebook you'll find exercises 1-4 related to Individual Assignment 2. You can see the tasks followed by the respective code solutions in the subsequent cells.
 
 Assumptions: 
 
