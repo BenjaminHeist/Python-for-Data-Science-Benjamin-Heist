@@ -79,11 +79,40 @@ The script provides answers to the following questions based on the annotation f
 - Identify which satellite was used in the most recent annotation file.
 7. Unique Regions: How many unique regions are represented in the dataset.
 
-Libraries Used
+Libraries Utilized
 
 - os: For interacting with the file system (e.g., listing directories, checking file paths).
 
 - shutil: For moving files between directories.
+
+
+ASSIGNMENT 5 
+
+Advanced Annotation Analysis: In this assignment, we build upon the annotations data analyzed in Assignment 4, adding new insights and enhancing data handling using libraries introduced in this session.
+
+Task Overview
+
+The script provides answers to the following questions based on the annotation files:
+
+1. Annotations by Month and Year:
+- Count of annotations for each month and year.
+- Identify the month with the highest number of annotations.
+2. Annotations Organized by Month (Dictionary Storage)
+- Create a Dictionary: Develop a dictionary where each key represents a month, and each value is a list of annotation names corresponding to that month.
+- JSON Serialization: Save the dictionary in JSON format. Load the JSON file to confirm the data integrity.
+- Pickle Serialization: Save the dictionary using Pickle for efficient storage and loading.
+- Enhanced Storage with Datetime Objects: Instead of just storing a list of annotation names, create a dictionary for each annotation entry with the keys name (annotation name) and date (a Python datetime object).
+3. Sort and Print Annotations for the Second Half of 2024
+- Filter annotations from July to December 2024 and print these annotations in chronological order, from the oldest to the newest.
+
+
+Libraries Utilized
+
+- datetime: For working with dates and times, particularly to parse annotation dates, store them as datetime objects, and enable accurate date-based sorting.
+
+- json: For serializing (saving) data structures into JSON format, allowing for human-readable, cross-platform storage and easy data exchange.
+
+- pickle: For efficient binary serialization, enabling quick saving and loading of complex Python objects, like dictionaries with datetime objects.
 
 
 
