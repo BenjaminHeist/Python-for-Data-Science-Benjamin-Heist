@@ -56,12 +56,13 @@ Features Implemented
 
 ASSIGNMENT 4
 
-This repository contains a Python script to analyze a set of annotation files stored in a zip file. Each file follows a specific naming convention:
+This file contains the content covered in class followed by a Python script to analyze a set of annotation files stored in a zip file. Each file follows a specific naming convention:
 {DATE}_{TIME}_SN{SATELLITE_NUMBER}_QUICKVIEW_VISUAL_{VERSION}_{UNIQUE_REGION}.txt
 
 The file used can be found here: https://ecampus.esade.edu/pluginfile.php/185972110/mod_resource/content/1/session_4.zip
 
 Task Overview
+
 The script provides answers to the following questions based on the annotation files:
 
 1. Total Files: How many annotation files are in the folder.
