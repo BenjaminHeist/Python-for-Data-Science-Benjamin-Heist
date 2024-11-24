@@ -118,7 +118,33 @@ Libraries Utilized
 - pickle: For efficient binary serialization, enabling quick saving and loading of complex Python objects, like dictionaries with datetime objects.
 
 
+ASSIGNMENT 6
 
+This file contains the content covered in class followed by Python scripts analyzing two datasets: a Netflix dataset and a Titanic survival dataset. 
+
+The Netflix file used can be found here: https://ecampus.esade.edu/pluginfile.php/186007426/mod_folder/content/0/netflix_titles.csv.zip?forcedownload=1
+The Titanic file used can be found here: https://ecampus.esade.edu/pluginfile.php/186007429/mod_folder/content/0/titanic.zip?forcedownload=1
+
+Task Overview
+
+The script provides answers to the following questions based on the Netflix Dataset:
+
+1. Missing Ratings: Check if there are any missing values in the rating column.
+2. Country-Specific Films in 2021: Count the number of films released in 2021 that correspond to your country.
+3. Movies in 2020 with Full Information: Identify how many movies from 2020 have no missing values across all columns.
+4. Year with the Most Titles: Find the year with the highest number of titles in the dataset.
+5. Average Releases Since 2010: Calculate the average number of titles released annually from 2010 onwards.
+
+The script provides answers to the following questions based on the Titanic Dataset: 
+
+1. Gender-Based Survival Percentage: Calculate survival percentages for males and females.
+2. Survival Percentage Grouped by Gender and Class: Analyze survival rates grouped by gender and passenger class.
+
+
+Libraries Utilized
+
+- pandas: For data manipulation and analysis.
+- matplotlib: For creating visualizations.
 
 How to Use
   - Clone the repository.
