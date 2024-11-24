@@ -123,6 +123,7 @@ ASSIGNMENT 6
 This file contains the content covered in class followed by Python scripts analyzing two datasets: a Netflix dataset and a Titanic survival dataset. 
 
 The Netflix file used can be found here: https://ecampus.esade.edu/pluginfile.php/186007426/mod_folder/content/0/netflix_titles.csv.zip?forcedownload=1
+
 The Titanic file used can be found here: https://ecampus.esade.edu/pluginfile.php/186007429/mod_folder/content/0/titanic.zip?forcedownload=1
 
 Task Overview
