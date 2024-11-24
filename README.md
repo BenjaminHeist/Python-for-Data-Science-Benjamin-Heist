@@ -133,14 +133,18 @@ The script provides answers to the following questions based on the Netflix Data
 1. Missing Ratings: Check if there are any missing values in the rating column.
 2. Country-Specific Films in 2021: Count the number of films released in 2021 that correspond to your country.
 3. Movies in 2020 with Full Information: Identify how many movies from 2020 have no missing values across all columns.
-4. Year with the Most Titles: Find the year with the highest number of titles in the dataset.
-5. Average Releases Since 2010: Calculate the average number of titles released annually from 2010 onwards.
+- excludes rows with incomplete data when analyzing full information for movies in 2020
+5. Year with the Most Titles: Find the year with the highest number of titles in the dataset.
+6. Average Releases Since 2010: Calculate the average number of titles released annually from 2010 onwards.
 
 The script provides answers to the following questions based on the Titanic Dataset: 
 
 1. Gender-Based Survival Percentage: Calculate survival percentages for males and females.
 2. Survival Percentage Grouped by Gender and Class: Analyze survival rates grouped by gender and passenger class.
 
+Key Visualizations (Out of scope)
+
+- A bar chart visualizing survival percentages for males and females across passenger classes.
 
 Libraries Utilized
 
