@@ -147,7 +147,28 @@ Libraries Utilized
 - pandas: For data manipulation and analysis.
 - matplotlib: For creating visualizations.
 
+
+ASSIGNMENT 7
+
+This file contains solutions to Python exercises that focus on manipulating and combining DataFrames using pandas. The tasks include creating new columns, performing joins, and combining DataFrames using advanced string and merge operations.
+
+Tasks Overview
+
+1. Create a Column with Professor Initials
+- Added a new column called professor_initials to store the initials of each professor's first and last names.
+2. Join DataFrames based on the Professor Column
+- Used the join function to combine the original DataFrame with a new DataFrame containing additional data, matching rows based on the professor column.
+3. Merge DataFrames based on the Professor Column
+- Merged the original DataFrame with the df_courses DataFrame to consolidate course-related information.
+4. Extract Professor Last Name and create a new column
+- Created a new column called professor_last_name by extracting the last name of each professor from the professor column using string operations.
+
+Libraries Utilized
+
+pandas: For DataFrame manipulation, including string operations and joins.
+
+
 How to Use
   - Clone the repository.
-  - Run the Python code to interact with the course registration system.
-  - Example usage is provided in the uploaded code.
+  - pip install the required libraries
+  - run the script
