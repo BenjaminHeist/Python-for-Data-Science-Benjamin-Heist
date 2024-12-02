@@ -170,7 +170,8 @@ Libraries Utilized
 
 
 ASSIGNMENT 8
-This file contains solutions to Python exercises that focus on data visualization using Seaborn and Matplotlib. The tasks include creating various types of plots to analyze and interpret patterns in the data, such as trends, distributions, and relationships.
+
+This file contains solutions to Python exercises that focus on data visualization using Seaborn and Matplotlib. The tasks include creating various types of plots to analyze and interpret patterns in the data, such as trends, distributions, and relationships. The data used in the file is provided within the code. 
 
 Tasks Overview
 
