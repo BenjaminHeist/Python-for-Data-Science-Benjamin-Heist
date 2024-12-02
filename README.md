@@ -85,7 +85,6 @@ The script provides answers to the following questions based on the annotation f
 Libraries Utilized
 
 - os: For interacting with the file system (e.g., listing directories, checking file paths).
-
 - shutil: For moving files between directories.
 
 
@@ -112,9 +111,7 @@ The script provides answers to the following questions based on the annotation f
 Libraries Utilized
 
 - datetime: For working with dates and times, particularly to parse annotation dates, store them as datetime objects, and enable accurate date-based sorting.
-
 - json: For serializing (saving) data structures into JSON format, allowing for human-readable, cross-platform storage and easy data exchange.
-
 - pickle: For efficient binary serialization, enabling quick saving and loading of complex Python objects, like dictionaries with datetime objects.
 
 
@@ -169,7 +166,32 @@ Tasks Overview
 
 Libraries Utilized
 
-pandas: For DataFrame manipulation, including string operations and joins.
+- pandas: For DataFrame manipulation, including string operations and joins.
+
+
+ASSIGNMENT 8
+This file contains solutions to Python exercises that focus on data visualization using Seaborn and Matplotlib. The tasks include creating various types of plots to analyze and interpret patterns in the data, such as trends, distributions, and relationships.
+
+Tasks Overview
+
+1. Create a Lineplot for Study Time by Student Name
+- Generated a lineplot to visualize how study time varies across students. Identified the student with the highest study time.
+2. Histogram of Grade Distribution
+- Created a histogram to observe the distribution of grades and determine the grade range with the highest frequency of students.
+3. ECDF Plot for Grades
+- Visualized the cumulative distribution of grades using an ECDF plot and calculated the percentage of students scoring below 85.
+4. Stripplot of Grade Distribution by Course
+- Designed a stripplot to analyze how grades are distributed for each course and identified the course with the most spread in grades.
+5. Swarmplot for Gender vs. Study Time
+- Plotted a swarmplot to examine the relationship between gender and study time. Determined which gender has a higher average study time.
+6. Pointplot of Average Grades by Course
+- Developed a pointplot to display the average grades for each course and identified the course with the highest average grade.
+
+Libraries Utilized
+
+- Seaborn: For creating advanced visualizations like ECDF, swarmplot, stripplot, and pointplot.
+- Matplotlib: For customizing and enhancing the plots.
+- Pandas: For data manipulation and aggregation to prepare the data for visualization.
 
 
 How to Use
