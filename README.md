@@ -142,6 +142,7 @@ The script provides answers to the following questions based on the Netflix Data
 The script provides answers to the following questions based on the Titanic Dataset: 
 
 1. Gender-Based Survival Percentage: Calculate survival percentages for males and females.
+- please note that the 'Survived' header is spelled wrong, I adjusted according to it: '2urvived'. Nevertheless I chose to not change it in the dataframe itself 
 2. Survival Percentage Grouped by Gender and Class: Analyze survival rates grouped by gender and passenger class.
 
 Key Visualizations (Out of scope)
