@@ -2,6 +2,11 @@ Read-Me for the repository 'Python-for-Data-Science-Benjamin-Heist'.
 
 This repository contains the individual assignments of this Python course and was updated continiously. Along the course I created a new branch for each individual assignment, that all were merged into the main branch. 
 
+Additional Comments:
+  I have decided not to create a folder structure with individual README files, as repeating information from the main README would be counterproductive. I believe it would not  only be redundant, but also unnecessarily complicate the repository. Instead, you will find an overview of each task in the relevant section of this README as well as in the respective files through Markdown cells. I believe that this structure makes the repository clearer and easier to follow. 
+
+  Thank you for this course! I truly enjoyed the classes with the both of you. It was clear that you not only enjoyed teaching but also enjoyed working together, which made the experience even better for us. I also noticed how the teaching style and course structure improved significantly as the course progressed, which made learning even more engaging.
+
 ASSIGNMENT 1 
 
 - In the notebook you will find exercises 1-17 of Individual Assignment 1, followed by the respective code solutions in the subsequent cells.
@@ -199,8 +204,3 @@ How to Use
   - Clone the repository.
   - pip install the required libraries
   - run the script
-
-Additional Comments:
-  I have decided not to create a folder structure with individual README files, as repeating information from the main README would be counterproductive. I believe it would not  only be redundant, but also unnecessarily complicate the repository. Instead, you will find an overview of each task in the relevant section of this README as well as in the respective files through Markdown cells. I believe that this structure makes the repository clearer and easier to follow. 
-
-  Thank you for this course! I truly enjoyed the classes with the both of you. It was clear that you not only enjoyed teaching but also enjoyed working together, which made the experience even better for us. I also noticed how the teaching style and course structure improved significantly as the course progressed, which made learning even more engaging.
